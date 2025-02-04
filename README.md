@@ -22,6 +22,13 @@ temporizador_periodico/
 ├── diagram.json                # Arquivo de diagrama do simulador
 ```
 
+### Como Clonar o Projeto
+
+Para clonar este repositório, execute:
+```
+git clone https://github.com/01Keven/temporizador_periodico.git
+```
+
 ### Estrutura do Código
 
 1. **Bibliotecas Importadas**
