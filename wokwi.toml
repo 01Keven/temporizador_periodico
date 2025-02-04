@@ -2,3 +2,5 @@
 version = 1
 firmware = 'build/temporizador_periodico.uf2'
 elf = 'build/temporizador_periodico.elf'
+baud = 115200
+port = "stdio"
