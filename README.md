@@ -8,10 +8,19 @@ Este projeto implementa um semáforo simples usando o Raspberry Pi Pico W. O sem
 ### Experimento com BitDogLab
 - Os leds não aparecem completamente com as cores correspondentes ao do Wokwi pois é necessario uso de biblioteca para manipulação individual das cores dos LEDs.
 
-
 https://github.com/user-attachments/assets/6d010e41-0902-48fc-9595-f0fc4d09f347
 
+### Estrutura do Projeto
 
+O projeto está organizado da seguinte forma:
+```
+temporizador_periodico/
+├── temportizador_periodico.c   # Código fonte principal
+├── CMakeLists.txt              # Configuração para compilação
+├── pico_sdk_import.cmake       # Importação do SDK do Pico
+├── wokwi.toml                  # Configuração do Wokwi para simulação online
+├── diagram.json                # Arquivo de diagrama do simulador
+```
 
 ### Estrutura do Código
 
